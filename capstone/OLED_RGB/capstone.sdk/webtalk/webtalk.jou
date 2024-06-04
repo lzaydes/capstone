@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# 
+# Start of session at: Mon Jun  3 14:50:48 2024
+# Process ID: 2700
+# Current directory: C:/Users/Student/Desktop/152B_Labs_Turner_Liu/capstone/capstone.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/Student/Desktop/152B_Labs_Turner_Liu/capstone/capstone.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/Student/Desktop/152B_Labs_Turner_Liu/capstone/capstone.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

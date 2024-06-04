@@ -1,0 +1,2178 @@
+15:04:54 **** Build of project PmodOLED2_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/canps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/canps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/canps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/canps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling canps"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+15:05:23 **** Build of configuration Debug for project PmodOLED2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PmodOLED2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PmodOLED2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/ps7_cortexa9_0/lib -o "PmodOLED2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+15:05:26 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:09:14 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PmodOLED2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.d" -MT"refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/ChrFont0.d" -o "refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.o" "../refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.c"
+../refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.c:34:10: fatal error: p32xxxx.h: No such file or directory
+ #include <p32xxxx.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.o] Error 1
+15:09:32 **** Clean-only build of configuration Debug for project PmodOLED2 ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/ChrFont0.o ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/FillPat.o ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/Oled2Char.o ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/Oled2Grph.o ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/PmodOled2.o ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/delay.o ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/main.o  ./src/helloworld.d ./src/platform.d  ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/ChrFont0.d ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/FillPat.d ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/Oled2Char.d ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/Oled2Grph.d ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/PmodOled2.d ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/delay.d ./refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/main.d  PmodOLED2.elf.size  PmodOLED2.elf
+' '
+15:09:32 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PmodOLED2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PmodOLED2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PmodOLED2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.d" -MT"refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2\ Demo/ChrFont0.d" -o "refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.o" "../refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.c"
+../refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.c:34:10: fatal error: p32xxxx.h: No such file or directory
+ #include <p32xxxx.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [refs/mplabx_refs/MPLabX_Pmod_OLED2_demo/PmodOLED2 Demo/ChrFont0.o] Error 1
+15:10:01 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PmodOLED2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:52:10: fatal error: xuartlite.h: No such file or directory
+ #include "xuartlite.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+15:14:07 **** Build of project PmodOLED2_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/PmodGPIO_v1_0/src"
+make -C microblaze_0/libsrc/PmodGPIO_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/PmodGPIO_v1_0/src"
+make -C microblaze_0/libsrc/PmodGPIO_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodGPIO..."
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+15:14:17 **** Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2712	    268	   3108	   6088	   17c8	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+15:25:27 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\Student\Downloads\OLED2\OLED2.sdk\PmodOLED2\Debug/../src/main.c:77: undefined reference to `init'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PmodOLED2.elf] Error 1
+15:29:43 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:74:1: error: unknown type name 'PmodGpio'; did you mean 'PmodGPIO'?
+ PmodGpio jb, jc;
+ ^~~~~~~~
+ PmodGPIO
+../src/main.c: In function 'init':
+../src/main.c:86:3: warning: implicit declaration of function 'PmodGpio_begin'; did you mean 'GPIO_begin'? [-Wimplicit-function-declaration]
+   PmodGpio_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+   ^~~~~~~~~~~~~~
+   GPIO_begin
+make: *** [src/main.o] Error 1
+15:30:18 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'init':
+../src/main.c:58:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:86:59: note: in expansion of macro 'DATA_PINS'
+   GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                           ^~~~~~~~~
+../src/main.c:63:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:87:59: note: in expansion of macro 'VCI_PIN'
+   GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                           ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2096	    268	   3124	   5488	   1570	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+15:31:13 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'init':
+../src/main.c:58:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:86:59: note: in expansion of macro 'DATA_PINS'
+   GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                           ^~~~~~~~~
+../src/main.c:63:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:87:59: note: in expansion of macro 'VCI_PIN'
+   GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                           ^~~~~~~
+../src/main.c:89:3: warning: implicit declaration of function 'set_pins'; did you mean 'fsetpos'? [-Wimplicit-function-declaration]
+   set_pins(&jb, VCC_PINS_JB, 1);
+   ^~~~~~~~
+   fsetpos
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `init':
+C:\Users\Student\Downloads\OLED2\OLED2.sdk\PmodOLED2\Debug/../src/main.c:89: undefined reference to `set_pins'
+C:\Users\Student\Downloads\OLED2\OLED2.sdk\PmodOLED2\Debug/../src/main.c:90: undefined reference to `set_pins'
+C:\Users\Student\Downloads\OLED2\OLED2.sdk\PmodOLED2\Debug/../src/main.c:91: undefined reference to `set_pins'
+C:\Users\Student\Downloads\OLED2\OLED2.sdk\PmodOLED2\Debug/../src/main.c:92: undefined reference to `set_pins'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PmodOLED2.elf] Error 1
+15:31:42 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'init':
+../src/main.c:58:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:86:59: note: in expansion of macro 'DATA_PINS'
+   GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                           ^~~~~~~~~
+../src/main.c:63:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:87:59: note: in expansion of macro 'VCI_PIN'
+   GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                           ^~~~~~~
+../src/main.c:59:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JB 0x820 // pins 6 and 12
+                     ^
+../src/main.c:89:21: note: in expansion of macro 'VCC_PINS_JB'
+   GPIO_setPins(&jb, VCC_PINS_JB, 1);
+                     ^~~~~~~~~~~
+../src/main.c:89:3: error: too many arguments to function 'GPIO_setPins'
+   GPIO_setPins(&jb, VCC_PINS_JB, 1);
+   ^~~~~~~~~~~~
+In file included from ../src/main.c:54:0:
+../../PmodOLED2_bsp/microblaze_0/include/PmodGpio.h:48:6: note: declared here
+ void GPIO_setPins(PmodGPIO *InstancePtr, u8 value);
+      ^~~~~~~~~~~~
+../src/main.c:90:3: warning: implicit declaration of function 'set_pins'; did you mean 'fsetpos'? [-Wimplicit-function-declaration]
+   set_pins(&jb, GND_PINS_JB, 0);
+   ^~~~~~~~
+   fsetpos
+make: *** [src/main.o] Error 1
+15:33:36 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'init':
+../src/main.c:58:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:86:59: note: in expansion of macro 'DATA_PINS'
+   GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                           ^~~~~~~~~
+../src/main.c:63:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:87:59: note: in expansion of macro 'VCI_PIN'
+   GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                           ^~~~~~~
+../src/main.c:59:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JB 0x820 // pins 6 and 12
+                     ^
+../src/main.c:90:24: note: in expansion of macro 'VCC_PINS_JB'
+      GPIO_setPins(&jb, VCC_PINS_JB);
+                        ^~~~~~~~~~~
+../src/main.c:70:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JC 0x820 // pins 6 and 12
+                     ^
+../src/main.c:91:24: note: in expansion of macro 'VCC_PINS_JC'
+      GPIO_setPins(&jc, VCC_PINS_JC);
+                        ^~~~~~~~~~~
+../src/main.c:94:24: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+      GPIO_setPins(&jb, ~GND_PINS_JB);
+                        ^
+../src/main.c:95:24: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+      GPIO_setPins(&jc, ~GND_PINS_JC);
+                        ^
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2208	    268	   3124	   5600	   15e0	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+15:33:42 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'init':
+../src/main.c:58:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:86:59: note: in expansion of macro 'DATA_PINS'
+   GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                           ^~~~~~~~~
+../src/main.c:63:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:87:59: note: in expansion of macro 'VCI_PIN'
+   GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                           ^~~~~~~
+../src/main.c:59:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JB 0x820 // pins 6 and 12
+                     ^
+../src/main.c:90:20: note: in expansion of macro 'VCC_PINS_JB'
+  GPIO_setPins(&jb, VCC_PINS_JB);
+                    ^~~~~~~~~~~
+../src/main.c:70:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JC 0x820 // pins 6 and 12
+                     ^
+../src/main.c:91:20: note: in expansion of macro 'VCC_PINS_JC'
+  GPIO_setPins(&jc, VCC_PINS_JC);
+                    ^~~~~~~~~~~
+../src/main.c:94:20: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPins(&jb, ~GND_PINS_JB);
+                    ^
+../src/main.c:95:20: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPins(&jc, ~GND_PINS_JC);
+                    ^
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2208	    268	   3124	   5600	   15e0	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+15:36:44 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:96:59: note: in expansion of macro 'DATA_PINS'
+   GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                           ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:97:59: note: in expansion of macro 'VCI_PIN'
+   GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                           ^~~~~~~
+../src/main.c:60:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JB 0x820 // pins 6 and 12
+                     ^
+../src/main.c:100:20: note: in expansion of macro 'VCC_PINS_JB'
+  GPIO_setPins(&jb, VCC_PINS_JB);
+                    ^~~~~~~~~~~
+../src/main.c:71:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JC 0x820 // pins 6 and 12
+                     ^
+../src/main.c:101:20: note: in expansion of macro 'VCC_PINS_JC'
+  GPIO_setPins(&jc, VCC_PINS_JC);
+                    ^~~~~~~~~~~
+../src/main.c:104:20: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPins(&jb, ~GND_PINS_JB);
+                    ^
+../src/main.c:105:20: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPins(&jc, ~GND_PINS_JC);
+                    ^
+../src/main.c: In function 'oled_init':
+../src/main.c:122:2: warning: implicit declaration of function 'send_command' [-Wimplicit-function-declaration]
+  send_command(0xAE); // Display off
+  ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `oled_init':
+C:\Users\Student\Downloads\OLED2\OLED2.sdk\PmodOLED2\Debug/../src/main.c:122: undefined reference to `send_command'
+C:\Users\Student\Downloads\OLED2\OLED2.sdk\PmodOLED2\Debug/../src/main.c:126: undefined reference to `send_command'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PmodOLED2.elf] Error 1
+15:37:36 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:97:59: note: in expansion of macro 'DATA_PINS'
+   GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                           ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:98:59: note: in expansion of macro 'VCI_PIN'
+   GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                           ^~~~~~~
+../src/main.c:60:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JB 0x820 // pins 6 and 12
+                     ^
+../src/main.c:101:20: note: in expansion of macro 'VCC_PINS_JB'
+  GPIO_setPins(&jb, VCC_PINS_JB);
+                    ^~~~~~~~~~~
+../src/main.c:71:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JC 0x820 // pins 6 and 12
+                     ^
+../src/main.c:102:20: note: in expansion of macro 'VCC_PINS_JC'
+  GPIO_setPins(&jc, VCC_PINS_JC);
+                    ^~~~~~~~~~~
+../src/main.c:105:20: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPins(&jb, ~GND_PINS_JB);
+                    ^
+../src/main.c:106:20: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPins(&jc, ~GND_PINS_JC);
+                    ^
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2820	    268	   3128	   6216	   1848	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+15:38:16 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:98:59: note: in expansion of macro 'DATA_PINS'
+   GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                           ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:99:59: note: in expansion of macro 'VCI_PIN'
+   GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                           ^~~~~~~
+../src/main.c:60:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JB 0x820 // pins 6 and 12
+                     ^
+../src/main.c:102:20: note: in expansion of macro 'VCC_PINS_JB'
+  GPIO_setPins(&jb, VCC_PINS_JB);
+                    ^~~~~~~~~~~
+../src/main.c:71:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JC 0x820 // pins 6 and 12
+                     ^
+../src/main.c:103:20: note: in expansion of macro 'VCC_PINS_JC'
+  GPIO_setPins(&jc, VCC_PINS_JC);
+                    ^~~~~~~~~~~
+../src/main.c:106:20: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPins(&jb, ~GND_PINS_JB);
+                    ^
+../src/main.c:107:20: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPins(&jc, ~GND_PINS_JC);
+                    ^
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2820	    268	   3128	   6216	   1848	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+15:38:32 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+15:52:57 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:98:59: note: in expansion of macro 'DATA_PINS'
+   GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                           ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:99:59: note: in expansion of macro 'VCI_PIN'
+   GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                           ^~~~~~~
+../src/main.c:60:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JB 0x820 // pins 6 and 12
+                     ^
+../src/main.c:102:19: note: in expansion of macro 'VCC_PINS_JB'
+  GPIO_setPin(&jb, VCC_PINS_JB, 1);
+                   ^~~~~~~~~~~
+../src/main.c:71:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JC 0x820 // pins 6 and 12
+                     ^
+../src/main.c:103:19: note: in expansion of macro 'VCC_PINS_JC'
+  GPIO_setPin(&jc, VCC_PINS_JC, 1);
+                   ^~~~~~~~~~~
+../src/main.c:106:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPin(&jb, ~GND_PINS_JB, 0);
+                   ^
+../src/main.c:107:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPin(&jc, ~GND_PINS_JC, 0);
+                   ^
+../src/main.c: In function 'oled_init':
+../src/main.c:144:2: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+  delay(150);
+  ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `oled_init':
+C:\Users\Student\Downloads\OLED2\OLED2.sdk\PmodOLED2\Debug/../src/main.c:144: undefined reference to `delay'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PmodOLED2.elf] Error 1
+15:53:11 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:51:10: fatal error: delay.h: No such file or directory
+ #include "delay.h"
+          ^~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+15:53:55 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:98:59: note: in expansion of macro 'DATA_PINS'
+   GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                           ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:99:59: note: in expansion of macro 'VCI_PIN'
+   GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                           ^~~~~~~
+../src/main.c:60:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JB 0x820 // pins 6 and 12
+                     ^
+../src/main.c:102:19: note: in expansion of macro 'VCC_PINS_JB'
+  GPIO_setPin(&jb, VCC_PINS_JB, 1);
+                   ^~~~~~~~~~~
+../src/main.c:71:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JC 0x820 // pins 6 and 12
+                     ^
+../src/main.c:103:19: note: in expansion of macro 'VCC_PINS_JC'
+  GPIO_setPin(&jc, VCC_PINS_JC, 1);
+                   ^~~~~~~~~~~
+../src/main.c:106:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPin(&jb, ~GND_PINS_JB, 0);
+                   ^
+../src/main.c:107:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPin(&jc, ~GND_PINS_JC, 0);
+                   ^
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2884	    268	   3128	   6280	   1888	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+15:54:02 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+15:55:37 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:98:59: note: in expansion of macro 'DATA_PINS'
+   GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                           ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:99:59: note: in expansion of macro 'VCI_PIN'
+   GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                           ^~~~~~~
+../src/main.c:60:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JB 0x820 // pins 6 and 12
+                     ^
+../src/main.c:102:19: note: in expansion of macro 'VCC_PINS_JB'
+  GPIO_setPin(&jb, VCC_PINS_JB, 1);
+                   ^~~~~~~~~~~
+../src/main.c:71:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JC 0x820 // pins 6 and 12
+                     ^
+../src/main.c:103:19: note: in expansion of macro 'VCC_PINS_JC'
+  GPIO_setPin(&jc, VCC_PINS_JC, 1);
+                   ^~~~~~~~~~~
+../src/main.c:106:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPin(&jb, ~GND_PINS_JB, 0);
+                   ^
+../src/main.c:107:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPin(&jc, ~GND_PINS_JC, 0);
+                   ^
+../src/main.c: In function 'send_command':
+../src/main.c:156:24: error: 'command' undeclared (first use in this function); did you mean '_howmany'?
+   GPIO_setPin(&jb, i, (command >> i) & 0x01);
+                        ^~~~~~~
+                        _howmany
+../src/main.c:156:24: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/main.o] Error 1
+15:55:43 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:98:59: note: in expansion of macro 'DATA_PINS'
+   GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                           ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:99:59: note: in expansion of macro 'VCI_PIN'
+   GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                           ^~~~~~~
+../src/main.c:60:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JB 0x820 // pins 6 and 12
+                     ^
+../src/main.c:102:19: note: in expansion of macro 'VCC_PINS_JB'
+  GPIO_setPin(&jb, VCC_PINS_JB, 1);
+                   ^~~~~~~~~~~
+../src/main.c:71:21: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCC_PINS_JC 0x820 // pins 6 and 12
+                     ^
+../src/main.c:103:19: note: in expansion of macro 'VCC_PINS_JC'
+  GPIO_setPin(&jc, VCC_PINS_JC, 1);
+                   ^~~~~~~~~~~
+../src/main.c:106:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPin(&jb, ~GND_PINS_JB, 0);
+                   ^
+../src/main.c:107:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+  GPIO_setPin(&jc, ~GND_PINS_JC, 0);
+                   ^
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2960	    268	   3124	   6352	   18d0	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+15:56:06 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+15:59:15 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:98:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:99:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3072	    268	   3124	   6464	   1940	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+15:59:55 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+16:03:02 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:98:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:99:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3084	    268	   3128	   6480	   1950	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+16:03:08 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+16:05:01 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:98:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:99:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3080	    268	   3124	   6472	   1948	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+16:05:05 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+16:05:33 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+16:05:53 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:98:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:99:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3080	    268	   3124	   6472	   1948	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+16:05:56 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+16:06:15 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:98:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:99:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: PmodOLED2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PmodOLED2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3080	    268	   3124	   6472	   1948	PmodOLED2.elf
+'Finished building: PmodOLED2.elf.size'
+' '
+21:01:19 **** Build of project PmodOLED2_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/PmodGPIO_v1_0/src"
+make -C microblaze_0/libsrc/PmodGPIO_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/PmodGPIO_v1_0/src"
+make -C microblaze_0/libsrc/PmodGPIO_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodGPIO..."
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+21:01:28 **** Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:98:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:99:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+../src/main.c: In function 'oled_init':
+../src/main.c:134:5: error: expected ';' before 'GPIO_setPin'
+     GPIO_setPin(&jc, 0, 1);
+     ^~~~~~~~~~~
+make: *** [src/main.o] Error 1
+21:01:51 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:98:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:99:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3136	    268	   3124	   6528	   1980	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:02:28 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:05:01 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:98:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:99:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3136	    268	   3124	   6528	   1980	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:05:08 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:05:33 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:103:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:104:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3112	    268	   3124	   6504	   1968	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:06:09 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:103:44: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_GPIO_0_DEVICE_ID, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                            ^~~~~~~~~
+../src/main.c:104:21: error: 'XPAR_GPIO_1_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_GPIO_0_DEVICE_ID'?
+     GPIO_begin(&jc, XPAR_GPIO_1_DEVICE_ID, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                     ^~~~~~~~~~~~~~~~~~~~~
+                     XPAR_GPIO_0_DEVICE_ID
+../src/main.c:104:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:104:44: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_GPIO_1_DEVICE_ID, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                            ^~~~~~~
+make: *** [src/main.o] Error 1
+21:09:50 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:103:48: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_DEVICE_ID, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:104:48: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_DEVICE_ID, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3104	    268	   3124	   6496	   1960	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:09:59 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:11:00 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:103:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:104:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3112	    268	   3124	   6504	   1968	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:11:10 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:11:59 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:103:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:104:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2888	    268	   3124	   6280	   1888	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:12:02 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:15:42 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:103:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:104:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6620	    272	   3124	  10016	   2720	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:16:07 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:18:31 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:103:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:104:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6672	    272	   3120	  10064	   2750	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:18:36 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:20:13 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:103:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:104:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6640	    272	   3120	  10032	   2730	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:20:18 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:21:10 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:103:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:104:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6640	    272	   3120	  10032	   2730	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:21:28 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:24:11 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:59:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF // pins 1-4, 7-10
+                   ^
+../src/main.c:103:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:64:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1 // pin 1
+                 ^
+../src/main.c:104:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6640	    272	   3120	  10032	   2730	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:24:21 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:28:31 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:11:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:55:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:16:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:56:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6664	    272	   3120	  10056	   2748	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:28:35 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:30:47 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:11:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:55:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:16:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:56:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6664	    272	   3120	  10056	   2748	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:30:51 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:31:24 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:11:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:55:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:16:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:56:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6696	    272	   3120	  10088	   2768	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:31:27 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:33:02 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:11:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:55:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:16:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:56:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6732	    272	   3124	  10128	   2790	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:33:05 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:33:12 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:33:20 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:34:02 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:11:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:55:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:16:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:56:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6620	    272	   3124	  10016	   2720	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:34:06 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:42:59 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:11:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:55:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:16:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:56:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6708	    272	   3124	  10104	   2778	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:43:03 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:47:16 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:48:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:93:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:53:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:94:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+../src/main.c: In function 'display_init':
+../src/main.c:236:2: warning: implicit declaration of function 'send_commandBuffer'; did you mean 'send_command'? [-Wimplicit-function-declaration]
+  send_commandBuffer(rgbOled2GSTable, 16);
+  ^~~~~~~~~~~~~~~~~~
+  send_command
+../src/main.c:236:21: error: 'rgbOled2GSTable' undeclared (first use in this function)
+  send_commandBuffer(rgbOled2GSTable, 16);
+                     ^~~~~~~~~~~~~~~
+../src/main.c:236:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:266:2: warning: implicit declaration of function 'Oled2Clear' [-Wimplicit-function-declaration]
+  Oled2Clear();
+  ^~~~~~~~~~
+make: *** [src/main.o] Error 1
+21:49:58 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:48:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:97:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:53:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:98:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+../src/main.c: In function 'display_init':
+../src/main.c:240:2: warning: implicit declaration of function 'send_commandBuffer'; did you mean 'send_command'? [-Wimplicit-function-declaration]
+  send_commandBuffer(rgbOled2GSTable, 16);
+  ^~~~~~~~~~~~~~~~~~
+  send_command
+../src/main.c:240:21: error: 'rgbOled2GSTable' undeclared (first use in this function)
+  send_commandBuffer(rgbOled2GSTable, 16);
+                     ^~~~~~~~~~~~~~~
+../src/main.c:240:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:273:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Oled2ClearBuffer()
+ ^~~~~~~~~~~~~~~~
+../src/main.c:273:1: warning: conflicting types for 'Oled2ClearBuffer'
+../src/main.c:72:6: note: previous declaration of 'Oled2ClearBuffer' was here
+ void Oled2ClearBuffer();
+      ^~~~~~~~~~~~~~~~
+../src/main.c: In function 'Oled2ClearBuffer':
+../src/main.c:278:7: error: 'rgbOled2DispBuf' undeclared (first use in this function)
+  pb = rgbOled2DispBuf;
+       ^~~~~~~~~~~~~~~
+../src/main.c:282:19: error: 'cbOled2DispMax' undeclared (first use in this function); did you mean 'rgbOled2DispBuf'?
+  for(ib = 0; ib < cbOled2DispMax; ib++)
+                   ^~~~~~~~~~~~~~
+                   rgbOled2DispBuf
+../src/main.c: In function 'Oled2Update':
+../src/main.c:319:15: error: 'rgbOled2DispBuf' undeclared (first use in this function)
+  send_command(rgbOled2DispBuf, cbOled2DispMax);
+               ^~~~~~~~~~~~~~~
+../src/main.c:319:32: error: 'cbOled2DispMax' undeclared (first use in this function); did you mean 'rgbOled2DispBuf'?
+  send_command(rgbOled2DispBuf, cbOled2DispMax);
+                                ^~~~~~~~~~~~~~
+                                rgbOled2DispBuf
+../src/main.c:319:2: error: too many arguments to function 'send_command'
+  send_command(rgbOled2DispBuf, cbOled2DispMax);
+  ^~~~~~~~~~~~
+../src/main.c:160:6: note: declared here
+ void send_command(uint8_t cmd)
+      ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+21:50:49 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:67:25: error: 'cbOled2DispMax' undeclared here (not in a function)
+ uint8_t rgbOled2DispBuf[cbOled2DispMax];
+                         ^~~~~~~~~~~~~~
+../src/main.c: In function 'gpio_init':
+../src/main.c:48:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:100:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:53:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:101:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+../src/main.c: In function 'display_init':
+../src/main.c:243:2: warning: implicit declaration of function 'send_commandBuffer'; did you mean 'send_command'? [-Wimplicit-function-declaration]
+  send_commandBuffer(rgbOled2GSTable, 16);
+  ^~~~~~~~~~~~~~~~~~
+  send_command
+../src/main.c:243:21: error: 'rgbOled2GSTable' undeclared (first use in this function); did you mean 'rgbOled2DispBuf'?
+  send_commandBuffer(rgbOled2GSTable, 16);
+                     ^~~~~~~~~~~~~~~
+                     rgbOled2DispBuf
+../src/main.c:243:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:276:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Oled2ClearBuffer()
+ ^~~~~~~~~~~~~~~~
+../src/main.c:276:1: warning: conflicting types for 'Oled2ClearBuffer'
+../src/main.c:75:6: note: previous declaration of 'Oled2ClearBuffer' was here
+ void Oled2ClearBuffer();
+      ^~~~~~~~~~~~~~~~
+../src/main.c: In function 'Oled2Update':
+../src/main.c:322:2: error: too many arguments to function 'send_command'
+  send_command(rgbOled2DispBuf, cbOled2DispMax);
+  ^~~~~~~~~~~~
+../src/main.c:163:6: note: declared here
+ void send_command(uint8_t cmd)
+      ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+21:51:13 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:67:25: error: 'cbOled2DispMax' undeclared here (not in a function)
+ uint8_t rgbOled2DispBuf[cbOled2DispMax];
+                         ^~~~~~~~~~~~~~
+../src/main.c:69:31: error: 'oled2GS1' undeclared here (not in a function)
+ uint8_t rgbOled2GSTable[] = { oled2GS1, oled2GS2, oled2GS3, oled2GS4,
+                               ^~~~~~~~
+../src/main.c:69:41: error: 'oled2GS2' undeclared here (not in a function); did you mean 'oled2GS1'?
+ uint8_t rgbOled2GSTable[] = { oled2GS1, oled2GS2, oled2GS3, oled2GS4,
+                                         ^~~~~~~~
+                                         oled2GS1
+../src/main.c:69:51: error: 'oled2GS3' undeclared here (not in a function); did you mean 'oled2GS2'?
+ uint8_t rgbOled2GSTable[] = { oled2GS1, oled2GS2, oled2GS3, oled2GS4,
+                                                   ^~~~~~~~
+                                                   oled2GS2
+../src/main.c:69:61: error: 'oled2GS4' undeclared here (not in a function); did you mean 'oled2GS3'?
+ uint8_t rgbOled2GSTable[] = { oled2GS1, oled2GS2, oled2GS3, oled2GS4,
+                                                             ^~~~~~~~
+                                                             oled2GS3
+../src/main.c:70:10: error: 'oled2GS5' undeclared here (not in a function); did you mean 'oled2GS4'?
+          oled2GS5, oled2GS6, oled2GS7, oled2GS8,
+          ^~~~~~~~
+          oled2GS4
+../src/main.c:70:20: error: 'oled2GS6' undeclared here (not in a function); did you mean 'oled2GS5'?
+          oled2GS5, oled2GS6, oled2GS7, oled2GS8,
+                    ^~~~~~~~
+                    oled2GS5
+../src/main.c:70:30: error: 'oled2GS7' undeclared here (not in a function); did you mean 'oled2GS6'?
+          oled2GS5, oled2GS6, oled2GS7, oled2GS8,
+                              ^~~~~~~~
+                              oled2GS6
+../src/main.c:70:40: error: 'oled2GS8' undeclared here (not in a function); did you mean 'oled2GS7'?
+          oled2GS5, oled2GS6, oled2GS7, oled2GS8,
+                                        ^~~~~~~~
+                                        oled2GS7
+../src/main.c:71:10: error: 'oled2GS9' undeclared here (not in a function); did you mean 'oled2GS8'?
+          oled2GS9, oled2GS10, oled2GS11, oled2GS12,
+          ^~~~~~~~
+          oled2GS8
+../src/main.c:71:20: error: 'oled2GS10' undeclared here (not in a function); did you mean 'oled2GS1'?
+          oled2GS9, oled2GS10, oled2GS11, oled2GS12,
+                    ^~~~~~~~~
+                    oled2GS1
+../src/main.c:71:31: error: 'oled2GS11' undeclared here (not in a function); did you mean 'oled2GS10'?
+          oled2GS9, oled2GS10, oled2GS11, oled2GS12,
+                               ^~~~~~~~~
+                               oled2GS10
+../src/main.c:71:42: error: 'oled2GS12' undeclared here (not in a function); did you mean 'oled2GS11'?
+          oled2GS9, oled2GS10, oled2GS11, oled2GS12,
+                                          ^~~~~~~~~
+                                          oled2GS11
+../src/main.c:72:10: error: 'oled2GS13' undeclared here (not in a function); did you mean 'oled2GS12'?
+          oled2GS13, oled2GS14, oled2GS15 };
+          ^~~~~~~~~
+          oled2GS12
+../src/main.c:72:21: error: 'oled2GS14' undeclared here (not in a function); did you mean 'oled2GS13'?
+          oled2GS13, oled2GS14, oled2GS15 };
+                     ^~~~~~~~~
+                     oled2GS13
+../src/main.c:72:32: error: 'oled2GS15' undeclared here (not in a function); did you mean 'oled2GS14'?
+          oled2GS13, oled2GS14, oled2GS15 };
+                                ^~~~~~~~~
+                                oled2GS14
+../src/main.c: In function 'gpio_init':
+../src/main.c:48:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:105:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:53:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:106:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+../src/main.c: In function 'display_init':
+../src/main.c:248:2: warning: implicit declaration of function 'send_commandBuffer'; did you mean 'send_command'? [-Wimplicit-function-declaration]
+  send_commandBuffer(rgbOled2GSTable, 16);
+  ^~~~~~~~~~~~~~~~~~
+  send_command
+../src/main.c: At top level:
+../src/main.c:281:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Oled2ClearBuffer()
+ ^~~~~~~~~~~~~~~~
+../src/main.c:281:1: warning: conflicting types for 'Oled2ClearBuffer'
+../src/main.c:80:6: note: previous declaration of 'Oled2ClearBuffer' was here
+ void Oled2ClearBuffer();
+      ^~~~~~~~~~~~~~~~
+../src/main.c: In function 'Oled2ClearBuffer':
+../src/main.c:290:17: warning: comparison between pointer and integer
+  for(ib = 0; ib < cbOled2DispMax; ib++)
+                 ^
+../src/main.c: In function 'Oled2Update':
+../src/main.c:327:15: warning: passing argument 1 of 'send_command' makes integer from pointer without a cast [-Wint-conversion]
+  send_command(rgbOled2DispBuf, cbOled2DispMax);
+               ^~~~~~~~~~~~~~~
+../src/main.c:168:6: note: expected 'uint8_t {aka unsigned char}' but argument is of type 'uint8_t * {aka unsigned char *}'
+ void send_command(uint8_t cmd)
+      ^~~~~~~~~~~~
+../src/main.c:327:2: error: too many arguments to function 'send_command'
+  send_command(rgbOled2DispBuf, cbOled2DispMax);
+  ^~~~~~~~~~~~
+../src/main.c:168:6: note: declared here
+ void send_command(uint8_t cmd)
+      ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+21:54:11 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:67:25: error: 'cbOled2DispMax' undeclared here (not in a function)
+ uint8_t rgbOled2DispBuf[cbOled2DispMax];
+                         ^~~~~~~~~~~~~~
+../src/main.c:69:31: error: 'oled2GS1' undeclared here (not in a function)
+ uint8_t rgbOled2GSTable[] = { oled2GS1, oled2GS2, oled2GS3, oled2GS4,
+                               ^~~~~~~~
+../src/main.c:69:41: error: 'oled2GS2' undeclared here (not in a function); did you mean 'oled2GS1'?
+ uint8_t rgbOled2GSTable[] = { oled2GS1, oled2GS2, oled2GS3, oled2GS4,
+                                         ^~~~~~~~
+                                         oled2GS1
+../src/main.c:69:51: error: 'oled2GS3' undeclared here (not in a function); did you mean 'oled2GS2'?
+ uint8_t rgbOled2GSTable[] = { oled2GS1, oled2GS2, oled2GS3, oled2GS4,
+                                                   ^~~~~~~~
+                                                   oled2GS2
+../src/main.c:69:61: error: 'oled2GS4' undeclared here (not in a function); did you mean 'oled2GS3'?
+ uint8_t rgbOled2GSTable[] = { oled2GS1, oled2GS2, oled2GS3, oled2GS4,
+                                                             ^~~~~~~~
+                                                             oled2GS3
+../src/main.c:70:10: error: 'oled2GS5' undeclared here (not in a function); did you mean 'oled2GS4'?
+          oled2GS5, oled2GS6, oled2GS7, oled2GS8,
+          ^~~~~~~~
+          oled2GS4
+../src/main.c:70:20: error: 'oled2GS6' undeclared here (not in a function); did you mean 'oled2GS5'?
+          oled2GS5, oled2GS6, oled2GS7, oled2GS8,
+                    ^~~~~~~~
+                    oled2GS5
+../src/main.c:70:30: error: 'oled2GS7' undeclared here (not in a function); did you mean 'oled2GS6'?
+          oled2GS5, oled2GS6, oled2GS7, oled2GS8,
+                              ^~~~~~~~
+                              oled2GS6
+../src/main.c:70:40: error: 'oled2GS8' undeclared here (not in a function); did you mean 'oled2GS7'?
+          oled2GS5, oled2GS6, oled2GS7, oled2GS8,
+                                        ^~~~~~~~
+                                        oled2GS7
+../src/main.c:71:10: error: 'oled2GS9' undeclared here (not in a function); did you mean 'oled2GS8'?
+          oled2GS9, oled2GS10, oled2GS11, oled2GS12,
+          ^~~~~~~~
+          oled2GS8
+../src/main.c:71:20: error: 'oled2GS10' undeclared here (not in a function); did you mean 'oled2GS1'?
+          oled2GS9, oled2GS10, oled2GS11, oled2GS12,
+                    ^~~~~~~~~
+                    oled2GS1
+../src/main.c:71:31: error: 'oled2GS11' undeclared here (not in a function); did you mean 'oled2GS10'?
+          oled2GS9, oled2GS10, oled2GS11, oled2GS12,
+                               ^~~~~~~~~
+                               oled2GS10
+../src/main.c:71:42: error: 'oled2GS12' undeclared here (not in a function); did you mean 'oled2GS11'?
+          oled2GS9, oled2GS10, oled2GS11, oled2GS12,
+                                          ^~~~~~~~~
+                                          oled2GS11
+../src/main.c:72:10: error: 'oled2GS13' undeclared here (not in a function); did you mean 'oled2GS12'?
+          oled2GS13, oled2GS14, oled2GS15 };
+          ^~~~~~~~~
+          oled2GS12
+../src/main.c:72:21: error: 'oled2GS14' undeclared here (not in a function); did you mean 'oled2GS13'?
+          oled2GS13, oled2GS14, oled2GS15 };
+                     ^~~~~~~~~
+                     oled2GS13
+../src/main.c:72:32: error: 'oled2GS15' undeclared here (not in a function); did you mean 'oled2GS14'?
+          oled2GS13, oled2GS14, oled2GS15 };
+                                ^~~~~~~~~
+                                oled2GS14
+../src/main.c: In function 'gpio_init':
+../src/main.c:48:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:105:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:53:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:106:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+../src/main.c: In function 'display_init':
+../src/main.c:248:2: warning: implicit declaration of function 'send_command_buffer'; did you mean 'send_command'? [-Wimplicit-function-declaration]
+  send_command_buffer(rgbOled2GSTable, 16);
+  ^~~~~~~~~~~~~~~~~~~
+  send_command
+../src/main.c: At top level:
+../src/main.c:281:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Oled2ClearBuffer()
+ ^~~~~~~~~~~~~~~~
+../src/main.c:281:1: warning: conflicting types for 'Oled2ClearBuffer'
+../src/main.c:80:6: note: previous declaration of 'Oled2ClearBuffer' was here
+ void Oled2ClearBuffer();
+      ^~~~~~~~~~~~~~~~
+../src/main.c: In function 'Oled2ClearBuffer':
+../src/main.c:290:17: warning: comparison between pointer and integer
+  for(ib = 0; ib < cbOled2DispMax; ib++)
+                 ^
+../src/main.c: At top level:
+../src/main.c:331:6: warning: conflicting types for 'send_command_buffer'
+ void send_command_buffer(const uint8_t* pbBuf, int cbBuf) {
+      ^~~~~~~~~~~~~~~~~~~
+../src/main.c:248:2: note: previous implicit declaration of 'send_command_buffer' was here
+  send_command_buffer(rgbOled2GSTable, 16);
+  ^~~~~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+21:55:12 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:90:25: error: 'cbOled2DispMax' undeclared here (not in a function)
+ uint8_t rgbOled2DispBuf[cbOled2DispMax];
+                         ^~~~~~~~~~~~~~
+../src/main.c: In function 'gpio_init':
+../src/main.c:71:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:128:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:76:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:129:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+../src/main.c: In function 'display_init':
+../src/main.c:271:2: warning: implicit declaration of function 'send_command_buffer'; did you mean 'send_command'? [-Wimplicit-function-declaration]
+  send_command_buffer(rgbOled2GSTable, 16);
+  ^~~~~~~~~~~~~~~~~~~
+  send_command
+../src/main.c: At top level:
+../src/main.c:304:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Oled2ClearBuffer()
+ ^~~~~~~~~~~~~~~~
+../src/main.c:304:1: warning: conflicting types for 'Oled2ClearBuffer'
+../src/main.c:103:6: note: previous declaration of 'Oled2ClearBuffer' was here
+ void Oled2ClearBuffer();
+      ^~~~~~~~~~~~~~~~
+../src/main.c:354:6: warning: conflicting types for 'send_command_buffer'
+ void send_command_buffer(const uint8_t* pbBuf, int cbBuf) {
+      ^~~~~~~~~~~~~~~~~~~
+../src/main.c:271:2: note: previous implicit declaration of 'send_command_buffer' was here
+  send_command_buffer(rgbOled2GSTable, 16);
+  ^~~~~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+21:55:58 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:71:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:129:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:76:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:130:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+../src/main.c: In function 'display_init':
+../src/main.c:272:2: warning: implicit declaration of function 'send_command_buffer'; did you mean 'send_command'? [-Wimplicit-function-declaration]
+  send_command_buffer(rgbOled2GSTable, 16);
+  ^~~~~~~~~~~~~~~~~~~
+  send_command
+../src/main.c: At top level:
+../src/main.c:305:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Oled2ClearBuffer()
+ ^~~~~~~~~~~~~~~~
+../src/main.c:305:1: warning: conflicting types for 'Oled2ClearBuffer'
+../src/main.c:104:6: note: previous declaration of 'Oled2ClearBuffer' was here
+ void Oled2ClearBuffer();
+      ^~~~~~~~~~~~~~~~
+../src/main.c:355:6: warning: conflicting types for 'send_command_buffer'
+ void send_command_buffer(const uint8_t* pbBuf, int cbBuf) {
+      ^~~~~~~~~~~~~~~~~~~
+../src/main.c:272:2: note: previous implicit declaration of 'send_command_buffer' was here
+  send_command_buffer(rgbOled2GSTable, 16);
+  ^~~~~~~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7912	    288	  11312	  19512	   4c38	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:56:15 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.
+21:56:33 **** Auto Build of configuration Debug for project PmodOLED2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PmodOLED2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpio_init':
+../src/main.c:71:19: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+                   ^
+../src/main.c:129:61: note: in expansion of macro 'DATA_PINS'
+     GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+                                                             ^~~~~~~~~
+../src/main.c:76:17: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define VCI_PIN 0x1  // Pin 1
+                 ^
+../src/main.c:130:61: note: in expansion of macro 'VCI_PIN'
+     GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+                                                             ^~~~~~~
+../src/main.c: In function 'display_init':
+../src/main.c:272:2: warning: implicit declaration of function 'send_command_buffer'; did you mean 'send_command'? [-Wimplicit-function-declaration]
+  send_command_buffer(rgbOled2GSTable, 16);
+  ^~~~~~~~~~~~~~~~~~~
+  send_command
+../src/main.c: At top level:
+../src/main.c:305:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Oled2ClearBuffer()
+ ^~~~~~~~~~~~~~~~
+../src/main.c:305:1: warning: conflicting types for 'Oled2ClearBuffer'
+../src/main.c:104:6: note: previous declaration of 'Oled2ClearBuffer' was here
+ void Oled2ClearBuffer();
+      ^~~~~~~~~~~~~~~~
+../src/main.c:355:6: warning: conflicting types for 'send_command_buffer'
+ void send_command_buffer(const uint8_t* pbBuf, int cbBuf) {
+      ^~~~~~~~~~~~~~~~~~~
+../src/main.c:272:2: note: previous implicit declaration of 'send_command_buffer' was here
+  send_command_buffer(rgbOled2GSTable, 16);
+  ^~~~~~~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: PmodOLED2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PmodOLED2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PmodOLED2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PmodOLED2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size PmodOLED2.elf  |tee "PmodOLED2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8024	    288	  11312	  19624	   4ca8	PmodOLED2.elf
+Finished building: PmodOLED2.elf.size
+ 
+21:56:36 **** Incremental Build of configuration Debug for project PmodOLED2 ****
+make all 
+make: Nothing to be done for `all'.

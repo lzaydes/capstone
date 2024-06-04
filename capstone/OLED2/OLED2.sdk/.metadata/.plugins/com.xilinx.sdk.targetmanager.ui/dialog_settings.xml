@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="OLED2_wrapper.bit" key="OLED2_wrapper_hw_platform_0-bitFile"/>
+	<item value="false" key="OLED2_wrapper_hw_platform_0-partial_bit"/>
+	<item value="Local" key="OLED2_wrapper_hw_platform_0-target"/>
+	<item value="OLED2_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="OLED2_wrapper.mmi" key="OLED2_wrapper_hw_platform_0-bmmFile"/>
+	<item value="bootloop" key="OLED2_wrapper_hw_platform_0-microblaze_0-initElf"/>
+	<item value="Auto Detect" key="OLED2_wrapper_hw_platform_0-device"/>
+</section>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1717473140">
+  <File Type="BITSTR-BMM" Name="OLED2_wrapper_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="OLED2_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="OLED2_wrapper_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="OLED2_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="OLED2_wrapper.tcl"/>
+  <File Type="OPT-TIMING" Name="OLED2_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="OLED2_wrapper_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="OLED2_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="OLED2_wrapper_reports.tcl"/>
+  <File Type="OPT-DRC" Name="OLED2_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="OLED2_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="OLED2_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="OLED2_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="OLED2_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="OLED2_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="OLED2_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="OLED2_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="OLED2_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="OLED2_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="OLED2_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="OLED2_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="OLED2_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="OLED2_wrapper.bgn"/>
+  <File Type="PLACE-TIMING" Name="OLED2_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="OLED2_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="OLED2_wrapper.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="OLED2_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="OLED2_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="OLED2_wrapper_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="OLED2_wrapper.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="OLED2_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="OLED2_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="OLED2_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="OLED2_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="OLED2_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="OLED2_wrapper_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="OLED2_wrapper.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="OLED2_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="OLED2_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="OLED2_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="OLED2_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="OLED2_wrapper.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="OLED2_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="OLED2_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="OLED2_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="OLED2_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="OLED2_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="OLED2_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="OLED2_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="OLED2_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="OLED2_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="OLED2_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="OLED2_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="OLED2_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="OLED2_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="OLED2_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="OLED2_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="OLED2_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="OLED2_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="OLED2_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="OLED2_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="OLED2_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="OLED2_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="OLED2_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="OLED2_wrapper.nky"/>
+  <File Type="BG-DRC" Name="OLED2_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="OLED2_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/OLED2/OLED2.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/OLED2/hdl/OLED2_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="OLED2_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Desktop/Basys-3-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Desktop/Basys-3-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1705522709"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_PmodGPIO_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_rst_clk_wiz_1_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_PmodGPIO_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OLED2_clk_wiz_1_0"/>
+</GenRun>

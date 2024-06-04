@@ -1,0 +1,134 @@
+#include <stdio.h>
+#include "platform.h"
+#include "sleep.h"
+#include "xil_printf.h"
+#include "xgpio.h"
+#include "xuartlite.h"
+#include "PmodGpio.h"
+
+// Pin definitions
+// JB
+#define DATA_PINS 0x3CF  // Pins 1-4, 7-10 (excluding 5, 6, 11, 12)
+#define VCC_PINS_JB 0x820  // Pins 6 and 12
+#define GND_PINS_JB 0x410  // Pins 5 and 11
+
+// JC
+#define VCI_PIN 0x1  // Pin 1
+#define RESET_PIN 0x2  // Pin 2
+#define VCC_BAT_PIN 0x4  // Pin 3
+#define DC_PIN 0x40  // Pin 7
+#define REN_PIN 0x80  // Pin 8
+#define WREN_PIN 0x100  // Pin 9
+#define VDD_LOGIC_PIN 0x200  // Pin 10
+#define VCC_PINS_JC 0x820  // Pins 6 and 12
+#define GND_PINS_JC 0x410  // Pins 5 and 11
+
+// GPIO instances for monitoring ports JC and JB
+PmodGPIO jb, jc;
+
+void init();
+void gpio_init();
+void oled_init();
+void send_command(uint8_t cmd);
+
+int main()
+{
+    init();
+    oled_init();
+
+    while(1)
+    {
+        continue;
+    }
+
+    return 0;
+}
+
+void init()
+{
+    gpio_init();
+}
+
+void gpio_init()
+{
+    // Initialize GPIO for JB and JC ports
+    GPIO_begin(&jb, XPAR_PMODGPIO_0_AXI_LITE_GPIO_BASEADDR, DATA_PINS | VCC_PINS_JB | GND_PINS_JB);
+    GPIO_begin(&jc, XPAR_PMODGPIO_1_AXI_LITE_GPIO_BASEADDR, VCI_PIN | RESET_PIN | VCC_BAT_PIN | DC_PIN | REN_PIN | WREN_PIN | VDD_LOGIC_PIN | VCC_PINS_JC | GND_PINS_JC);
+
+    // Set VCC pins to high
+    GPIO_setPin(&jb, 6, 1);  // VCC pin 6 on JB
+    GPIO_setPin(&jb, 12, 1);  // VCC pin 12 on JB
+    GPIO_setPin(&jc, 6, 1);  // VCC pin 6 on JC
+    GPIO_setPin(&jc, 12, 1);  // VCC pin 12 on JC
+
+    // Set GND pins to low
+    GPIO_setPin(&jb, 5, 0);  // GND pin 5 on JB
+    GPIO_setPin(&jb, 11, 0);  // GND pin 11 on JB
+    GPIO_setPin(&jc, 5, 0);  // GND pin 5 on JC
+    GPIO_setPin(&jc, 11, 0);  // GND pin 11 on JC
+}
+
+void oled_init()
+{
+    /* Display on sequence
+     *
+     * 1. Apply power to VCI
+     * 2. Wait 300ms
+     * 3. Send Display Off command (0xAE)
+     * 4. Set DC Pin to select mode
+     * 5. Clear screen
+     * 6. Apply power to VCC
+     * 7. Delay 100ms
+     * 8. Send Display On command (0xAF)
+     *
+     */
+
+    // Read & Write Enable
+    GPIO_setPin(&jc, 7, 1);  // REN high
+    GPIO_setPin(&jc, 8, 1);  // WREN high
+
+    // Apply power to VCI
+    GPIO_setPin(&jc, 0, 1);
+
+    usleep(300000);  // Wait for 300ms
+
+    // Display Off
+    send_command(0xAE);
+
+    // Set DC Pin to low to select command mode
+    GPIO_setPin(&jc, 6, 0);
+
+    // Apply power to VCC
+    GPIO_setPin(&jc, 2, 1);  // VCC_BAT_PIN high
+    GPIO_setPin(&jc, 9, 1);  // VDD_LOGIC_PIN high
+    usleep(100000);  // Wait for 100ms
+
+    // Display On command
+    send_command(0xAF);
+}
+
+void send_command(uint8_t cmd)
+{
+    xil_printf("Sending command %d\r\n", cmd);
+
+    // Set DC pin to low for command mode
+    GPIO_setPin(&jc, 6, 0);
+
+    // Send command via DATA_PINS on JB
+    for (int i = 0; i < 10; i++)
+    {
+    	if (i == 5 || i == 6)
+    		continue;
+
+        GPIO_setPin(&jb, (i > 6) ? i - 2 : i, (cmd >> i) & 0x01);
+        xil_printf("Pin %d set to %d\r\n", i, (cmd >> i) & 0x01);
+    }
+
+    // Pulse the write enable pin (assume WREN_PIN is used for write enable)
+    GPIO_setPin(&jc, 8, 1);
+    usleep(1);  // Short pulse
+    GPIO_setPin(&jc, 8, 0);
+
+    // Set DC pin back to high for data mode
+    GPIO_setPin(&jc, 6, 1);
+}

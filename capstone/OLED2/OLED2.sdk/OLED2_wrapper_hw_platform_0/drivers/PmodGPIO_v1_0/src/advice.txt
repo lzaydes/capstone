@@ -1,0 +1,51 @@
+
+### Key Points to Verify:
+
+1. **Pin Numbers and Initialization**:
+    - Ensure that the `GPIO_setPin` calls use the correct pin numbers for the PMOD connections. Verify the pin numbers against the hardware schematic or documentation.
+
+2. **Sequence and Timing**:
+    - The OLED2 may require precise timing sequences for initialization. Ensure the delays (`usleep`) match the datasheet requirements.
+
+3. **Voltage Levels**:
+    - Ensure the voltage levels applied to the VCI and VCC pins match the OLED2's operating requirements.
+
+4. **Connections**:
+    - Double-check physical connections to ensure there are no loose or incorrect connections.
+
+### Debugging Steps:
+
+1. **GPIO State Verification**:
+    - Use an oscilloscope or logic analyzer to verify the GPIO states and ensure the correct voltages are being set.
+
+2. **Command Verification**:
+    - Print debug messages in the `send_command` function to ensure the correct commands are being sent.
+
+3. **Power Supply**:
+    - Verify that the power supply to the OLED2 is stable and provides the required current.
+
+### Example Debug Messages:
+Add `xil_printf` statements to debug:
+
+```c
+void send_command(uint8_t cmd)
+{
+    xil_printf("Sending command: 0x%02X\r\n", cmd);
+
+    // Set DC pin to low for command mode
+    GPIO_setPin(&jc, 7, 0);
+
+    // Send command via DATA_PINS on JB
+    for (int i = 0; i < 8; i++) {
+        GPIO_setPin(&jb, i, (cmd >> i) & 0x01);
+        xil_printf("Pin %d set to %d\r\n", i, (cmd >> i) & 0x01);
+    }
+
+    // Pulse the write enable pin (assume WREN_PIN is used for write enable)
+    GPIO_setPin(&jc, 9, 1);
+    usleep(1);  // Short pulse
+    GPIO_setPin(&jc, 9, 0);
+
+    // Set DC pin back to high for data mode
+    GPIO_setPin(&jc, 7, 1);
+}
