@@ -2593,3 +2593,36 @@ con
 ----------------End of Script----------------
 
 23:46:00 INFO  : Launch script is exported to file 'C:\Users\Leo\Desktop\Engineering\capstone\capstone-master\capstone-master\capstone\OLED_RGB\capstone.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_sketch.elf_on_local.tcl'
+23:57:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:57:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B819A3A" && level==0} -index 0' command is executed.
+23:57:02 INFO  : FPGA configured successfully with bitstream "C:/Users/Leo/Desktop/Engineering/capstone/capstone-master/capstone-master/capstone/OLED_RGB/capstone.sdk/OLEDrgb_wrapper_hw_platform_0/download.bit"
+23:57:15 INFO  : Disconnected from the channel tcfchan#57.
+23:57:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B819A3A" && level==0} -index 0' command is executed.
+23:57:16 INFO  : 'fpga -state' command is executed.
+23:57:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:57:16 INFO  : Jtag cable 'Digilent Basys3 210183B819A3A' is selected.
+23:57:16 INFO  : 'jtag frequency' command is executed.
+23:57:16 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:57:17 INFO  : Context for processor 'microblaze_0' is selected.
+23:57:17 INFO  : Processor reset is completed for 'microblaze_0'.
+23:57:17 INFO  : Context for processor 'microblaze_0' is selected.
+23:57:17 INFO  : The application 'C:/Users/Leo/Desktop/Engineering/capstone/capstone-master/capstone-master/capstone/OLED_RGB/capstone.sdk/sketch/Debug/sketch.elf' is downloaded to processor 'microblaze_0'.
+23:57:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Basys3 210183B819A3A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Basys3 210183B819A3A"} -index 0
+dow C:/Users/Leo/Desktop/Engineering/capstone/capstone-master/capstone-master/capstone/OLED_RGB/capstone.sdk/sketch/Debug/sketch.elf
+----------------End of Script----------------
+
+23:57:17 INFO  : Memory regions updated for context MicroBlaze #0
+23:57:17 INFO  : Memory regions updated for context MicroBlaze #0
+23:57:17 INFO  : Context for processor 'microblaze_0' is selected.
+23:57:17 INFO  : 'con' command is executed.
+23:57:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Basys3 210183B819A3A"} -index 0
+con
+----------------End of Script----------------
+
+23:57:17 INFO  : Launch script is exported to file 'C:\Users\Leo\Desktop\Engineering\capstone\capstone-master\capstone-master\capstone\OLED_RGB\capstone.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_sketch.elf_on_local.tcl'
