@@ -6,9 +6,9 @@ This source code contains 2 Xilinx Vivado projects. The first is OLED2, which wa
 
 Due to timing constraints, and voltage constraints (Basys3 outputs only 3.3V to its Pmod ports, while the screen requires 5V), we had to scrap the project and start working on a different one.
 
-The second project is OLEDRGB, which works with the [Digilent Pmod OLEDrgb screen), which is much smaller in comparison to the OLED2. This project implements an Etch a Sketch onto the Basys3 board as shown [here](capstone.MOV)
+The second project is OLEDRGB, which works with the [Digilent Pmod OLEDrgb screen](https://digilent.com/reference/pmod/pmodoledrgb/start), which is much smaller in comparison to the OLED2. In addition, 2 instances of [Digilent Pmod JSTK2](https://digilent.com/reference/pmod/pmodjstk2/start). This project implements an Etch a Sketch onto the Basys3 board as shown here:
 
-[](capstone.MOV)
+![GIF could not load](documents/capstone.gif)
 
 As in the video, one PModJSTK2 should be connected to _jc_, and one to _jxadc_. The PModOLEDrgb is connected via an extension cable to _ja_.
 
@@ -22,4 +22,4 @@ This project is targeted for Xilinx Vivado 2018.2. Upon opening the project the 
 * With the Basys3 connected, select "Program FPGA" in the toolbar
 * Once programmed, click Run -> Run As -> Run on hardware
 
-  
+  The source code for the OLED2 driver and the Etch a Sketch are found in the main.c file in their respective *.sdk directories.
