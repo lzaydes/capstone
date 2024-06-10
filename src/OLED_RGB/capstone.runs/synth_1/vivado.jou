@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jun  6 19:24:38 2024
+# Process ID: 42556
+# Current directory: C:/Users/Leo/Desktop/Engineering/capstone/capstone-master/capstone-master/capstone/OLED_RGB/capstone.runs/synth_1
+# Command line: vivado.exe -log OLEDrgb_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source OLEDrgb_wrapper.tcl
+# Log file: C:/Users/Leo/Desktop/Engineering/capstone/capstone-master/capstone-master/capstone/OLED_RGB/capstone.runs/synth_1/OLEDrgb_wrapper.vds
+# Journal file: C:/Users/Leo/Desktop/Engineering/capstone/capstone-master/capstone-master/capstone/OLED_RGB/capstone.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source OLEDrgb_wrapper.tcl -notrace

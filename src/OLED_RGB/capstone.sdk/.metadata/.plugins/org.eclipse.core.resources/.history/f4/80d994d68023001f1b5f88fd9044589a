@@ -1,0 +1,179 @@
+/******************************************************************************/
+/*                                                                            */
+/* basic_example.c -- Demo project for the PmodJSTK2 IP                       */
+/*                                                                            */
+/******************************************************************************/
+/*                                                                            */
+/* Author: Samuel Lowe`                                                       */
+/* Copyright 2016, Digilent Inc.                                              */
+/*                                                                            */
+/******************************************************************************/
+/* File Description:                                                          */
+/*                                                                            */
+/* This demo reads the calibrated data from the PmodJSTK2 and prints the X    */
+/* and Y values while mapping the axis to the LED. If the buttons on the      */
+/* JSTK2 are pressed, the LED will turn green                                 */
+/*                                                                            */
+/* Data can be received with a serial terminal application connected to your  */
+/* board and configured to use the appropriate baud rate below.               */
+/*                                                                            */
+/******************************************************************************/
+/* Revision History:                                                          */
+/*                                                                            */
+/*    06/27/2016(SamL):     Created                                           */
+/*    11/01/2017(atangzwj): Validated for Vivado 2016.4                       */
+/*    01/13/2018(atangzwj): Validated for Vivado 2017.4                       */
+/*                                                                            */
+/******************************************************************************/
+/* Baud Rates:                                                                */
+/*                                                                            */
+/* Microblaze: 9600 or what was specified in UARTlite core                    */
+/* Zynq: 115200                                                               */
+/*                                                                            */
+/******************************************************************************/
+
+#include "PmodOLEDrgb.h"
+#include "PmodJSTK2.h"
+#include "sleep.h"
+#include "xil_cache.h"
+#include "xil_printf.h"
+
+#ifdef __MICROBLAZE__
+#define CPU_CLOCK_FREQ_HZ (XPAR_CPU_CORE_CLOCK_FREQ_HZ)
+#else
+#define CPU_CLOCK_FREQ_HZ (XPAR_PS7_CORTEXA9_0_CPU_CLK_FREQ_HZ)
+#endif
+
+PmodOLEDrgb screen;
+PmodJSTK2 js1, js2;
+
+void init();
+void EnableCaches();
+void DisableCaches();
+
+void get_state(PmodJSTK2 joystick, int* x, int* y, _Bool* jpressed, _Bool* tpressed);
+void init_oled();
+void init_joysticks();
+
+void display_coords(PmodJSTK2 j1, PmodJSTK2 j2);
+
+int main() {
+   init();
+   xil_printf("running...\n");
+
+   while(1)
+   {
+	   display_coords(js1, js2);
+   }
+   return 0;
+}
+
+void get_state(PmodJSTK2 joystick, int* x, int* y, _Bool* jpressed, _Bool* tpressed)
+{
+	 JSTK2_Position position;
+	 JSTK2_DataPacket rawdata;
+
+	position = JSTK2_getPosition(&joystick);
+
+    rawdata = JSTK2_getDataPacket(&joystick);
+
+    x = position.YData;
+    y = position.XData;
+    jpressed = (rawdata.Jstk != 0);
+    tpressed = (rawdata.Trigger != 0);
+}
+
+void init_oled() {
+   EnableCaches();
+   OLEDrgb_begin(&screen, XPAR_PMODOLEDRGB_0_AXI_LITE_GPIO_BASEADDR,
+         XPAR_PMODOLEDRGB_0_AXI_LITE_SPI_BASEADDR);
+}
+
+void init_joysticks()
+{
+	JSTK2_begin(
+	      &js1,
+	      XPAR_PMODJSTK2_0_AXI_LITE_SPI_BASEADDR,
+	      XPAR_PMODJSTK2_0_AXI_LITE_GPIO_BASEADDR
+	   );
+
+	JSTK2_begin(
+		      &js2,
+		      XPAR_PMODJSTK2_1_AXI_LITE_SPI_BASEADDR,
+		      XPAR_PMODJSTK2_1_AXI_LITE_GPIO_BASEADDR
+		   );
+
+	   // Set inversion register to invert only the Y axis
+	   JSTK2_setInversion(&js1, 1, 1);
+	   JSTK2_setInversion(&js2, 0, 0);
+}
+
+void init()
+{
+	init_oled();
+	init_joysticks();
+}
+
+void display_coords(PmodJSTK2 j1, PmodJSTK2 j2)
+{
+	JSTK2_Position p1, p2;
+	JSTK2_DataPacket r1, r2;
+
+	  p1 = JSTK2_getPosition(&j1);
+	  p2 = JSTK2_getPosition(&j2);
+
+	  // Get button states
+	  r1 = JSTK2_getDataPacket(&j1);
+	  r2 = JSTK2_getDataPacket(&j2);
+
+	  xil_printf(
+		 "X_L:%d\tY_L:%d\r\n",
+		 p1.YData,
+		 p1.XData
+	  );
+	  xil_printf(
+	  		 "X_R:%d\tY_R:%d\r\n\n\n",
+	  		 p2.YData,
+	  		 p2.XData
+	  	  );
+	  usleep(1000000);
+
+	  // Set led from btns and axis
+	  if (r1.Jstk != 0 || r1.Trigger != 0) {
+		 JSTK2_setLedRGB(&j1, 0, 255, 0);
+	  } else {
+		 JSTK2_setLedRGB(&j1, p1.YData, 0, p1.XData);
+	  }
+
+	  if (r2.Jstk != 0 || r2.Trigger != 0) {
+	 		 JSTK2_setLedRGB(&j2, 0, 255, 0);
+	 	  } else {
+	 		 JSTK2_setLedRGB(&j2, p2.XData, 0, p2.YData);
+	 	  }
+}
+
+void cleanup() {
+   DisableCaches();
+}
+
+void EnableCaches() {
+#ifdef __MICROBLAZE__
+#ifdef XPAR_MICROBLAZE_USE_ICACHE
+   Xil_ICacheEnable();
+#endif
+#ifdef XPAR_MICROBLAZE_USE_DCACHE
+   Xil_DCacheEnable();
+#endif
+#endif
+}
+
+void DisableCaches() {
+#ifdef __MICROBLAZE__
+#ifdef XPAR_MICROBLAZE_USE_DCACHE
+   Xil_DCacheDisable();
+#endif
+#ifdef XPAR_MICROBLAZE_USE_ICACHE
+   Xil_ICacheDisable();
+#endif
+#endif
+}
