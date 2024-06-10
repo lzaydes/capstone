@@ -35,7 +35,7 @@ The second project is OLEDRGB, which works with the [Digilent Pmod OLEDrgb scree
 ![GIF could not load](documents/standard_function.gif)
 
 **Dark Mode + Erasing**
-![GIF could not load](documents/dark_mode_erase.gif)
+![GIF could not load](documents/dark_mode_erase_demo.gif)
 
 As in the video, one PModJSTK2 should be connected to _jc_, and one to _jxadc_. The PModOLEDrgb is connected via an extension cable to _ja_.
 
