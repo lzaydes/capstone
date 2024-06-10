@@ -8,7 +8,11 @@ Due to timing constraints, and voltage constraints (Basys3 outputs only 3.3V to 
 
 The second project is OLEDRGB, which works with the [Digilent Pmod OLEDrgb screen](https://digilent.com/reference/pmod/pmodoledrgb/start), which is much smaller in comparison to the OLED2. In addition, 2 instances of [Digilent Pmod JSTK2](https://digilent.com/reference/pmod/pmodjstk2/start). This project implements an Etch a Sketch onto the Basys3 board as shown here:
 
-![GIF could not load](documents/capstone.gif)
+**Drawing + Reset**
+![GIF could not load](documents/standard_function.gif)
+
+**Dark Mode + Erasing**
+![GIF could not load](documents/dark_mode_erase.gif)
 
 As in the video, one PModJSTK2 should be connected to _jc_, and one to _jxadc_. The PModOLEDrgb is connected via an extension cable to _ja_.
 
