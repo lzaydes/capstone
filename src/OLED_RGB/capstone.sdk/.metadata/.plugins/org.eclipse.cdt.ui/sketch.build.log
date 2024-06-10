@@ -1,0 +1,52 @@
+23:57:13 **** Incremental Build of configuration Debug for project sketch ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sketch_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'get_state':
+../src/main.c:129:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     x = position.YData;
+       ^
+../src/main.c:130:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     y = position.XData;
+       ^
+../src/main.c:131:14: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     jpressed = (rawdata.Jstk != 0);
+              ^
+../src/main.c:132:14: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     tpressed = (rawdata.Trigger != 0);
+              ^
+../src/main.c: In function 'snapshot':
+../src/main.c:538:53: warning: implicit declaration of function 'OLEDrgb_GetPixel'; did you mean 'OLEDrgb_DrawPixel'? [-Wimplicit-function-declaration]
+    universe[screenOffsetX + x][screenOffsetY + y] = OLEDrgb_GetPixel(&screen, x, y);
+                                                     ^~~~~~~~~~~~~~~~
+                                                     OLEDrgb_DrawPixel
+In file included from ../../sketch_bsp/microblaze_0/include/xspi.h:304:0,
+                 from ../../sketch_bsp/microblaze_0/include/PmodOLEDrgb.h:32,
+                 from ../src/main.c:35:
+../src/main.c: In function 'init_xgpio':
+../../sketch_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:559:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/main.c:552:6: note: declared here
+ void init_xgpio()
+      ^~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: sketch.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sketch_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sketch.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: sketch.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size sketch.elf  |tee "sketch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24888	    400	 102024	 127312	  1f150	sketch.elf
+Finished building: sketch.elf.size
+ 
+
+23:57:15 Build Finished (took 1s.756ms)
+

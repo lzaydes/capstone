@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="OLEDrgb_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/Users/Student/Downloads/capstone-master/capstone-master/capstone/OLED_RGB/capstone.runs/OLEDrgb_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OLEDrgb_xbar_0_synth_1" LaunchDir="C:/Users/Student/Downloads/capstone-master/capstone-master/capstone/OLED_RGB/capstone.runs/OLEDrgb_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OLEDrgb_PmodOLEDrgb_0_0_synth_1" LaunchDir="C:/Users/Student/Downloads/capstone-master/capstone-master/capstone/OLED_RGB/capstone.runs/OLEDrgb_PmodOLEDrgb_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OLEDrgb_PmodJSTK2_0_0_synth_1" LaunchDir="C:/Users/Student/Downloads/capstone-master/capstone-master/capstone/OLED_RGB/capstone.runs/OLEDrgb_PmodJSTK2_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OLEDrgb_PmodJSTK2_1_0_synth_1" LaunchDir="C:/Users/Student/Downloads/capstone-master/capstone-master/capstone/OLED_RGB/capstone.runs/OLEDrgb_PmodJSTK2_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/Student/Downloads/capstone-master/capstone-master/capstone/OLED_RGB/capstone.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="OLEDrgb_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="OLEDrgb_xbar_0_synth_1"/>
+		<Parent Id="OLEDrgb_PmodOLEDrgb_0_0_synth_1"/>
+		<Parent Id="OLEDrgb_PmodJSTK2_0_0_synth_1"/>
+		<Parent Id="OLEDrgb_PmodJSTK2_1_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Users/Student/Downloads/capstone-master/capstone-master/capstone/OLED_RGB/capstone.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="OLEDrgb_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="OLEDrgb_xbar_0_synth_1"/>
+		<Parent Id="OLEDrgb_PmodOLEDrgb_0_0_synth_1"/>
+		<Parent Id="OLEDrgb_PmodJSTK2_0_0_synth_1"/>
+		<Parent Id="OLEDrgb_PmodJSTK2_1_0_synth_1"/>
+	</Run>
+</Runs>
+

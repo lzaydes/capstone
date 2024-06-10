@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Jun  5 12:38:58 2024
+# Process ID: 18272
+# Current directory: C:/Users/Student/Downloads/capstone-master/capstone-master/capstone/OLED_RGB/capstone.runs/OLEDrgb_dlmb_bram_if_cntlr_0_synth_1
+# Command line: vivado.exe -log OLEDrgb_dlmb_bram_if_cntlr_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source OLEDrgb_dlmb_bram_if_cntlr_0.tcl
+# Log file: C:/Users/Student/Downloads/capstone-master/capstone-master/capstone/OLED_RGB/capstone.runs/OLEDrgb_dlmb_bram_if_cntlr_0_synth_1/OLEDrgb_dlmb_bram_if_cntlr_0.vds
+# Journal file: C:/Users/Student/Downloads/capstone-master/capstone-master/capstone/OLED_RGB/capstone.runs/OLEDrgb_dlmb_bram_if_cntlr_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source OLEDrgb_dlmb_bram_if_cntlr_0.tcl -notrace
