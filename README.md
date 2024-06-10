@@ -6,7 +6,7 @@ This source code contains 2 Xilinx Vivado projects. The first is OLED2, which wa
 
 Due to timing constraints, and voltage constraints (Basys3 outputs only 3.3V to its Pmod ports, while the screen requires 5V), we had to scrap the project and start working on a different one.
 
-The second project is OLEDRGB, which works with the [Digilent Pmod OLEDrgb screen), which is much smaller in comparison to the OLED2. This project implements an Etch a Sketch onto the Basys3 board as shown here:
+The second project is OLEDRGB, which works with the [Digilent Pmod OLEDrgb screen), which is much smaller in comparison to the OLED2. This project implements an Etch a Sketch onto the Basys3 board as shown [here](capstone.MOV)
 
 [](capstone.MOV)
 
