@@ -2,11 +2,11 @@
 Source code and documentation for my FPGA capstone at UCLA
 
 ## Background
-This source code contains 2 Xilinx Vivado projects. The first is OLED2, which was an attempt to write a driver in C for the [Digilent PmodOLED2 screen](https://digilent.com/reference/pmodoled/pmodoled). This model is retired an no drivers exist to make it function on a Basys3 board. Additionally, documentation for this Pmod is almost nonexistent. Nonetheless we used documentation from the [SSD1322](https://www.hpinfotech.ro/SSD1322.pdf) display controller to find the hexadecimal commands for turning the display on, as well as the pin configurations. 
+This source code contains 2 Xilinx Vivado projects. The first is OLED2, which was an attempt to write a driver in C for the [Digilent PmodOLED2 screen](https://digilent.com/reference/pmodoled/pmodoled). This model is retired and no drivers exist to make it function on a Basys3 board. Additionally, documentation for this Pmod is almost nonexistent. Nonetheless we used documentation from the [SSD1322](https://www.hpinfotech.ro/SSD1322.pdf) display controller to find the hexadecimal commands for turning the display on, as well as the pin configurations. 
 
 Due to timing constraints, and voltage constraints (Basys3 outputs only 3.3V to its Pmod ports, while the screen requires 5V), we had to scrap the project and start working on a different one.
 
-The second project is OLEDRGB, which works with the [Digilent Pmod OLEDrgb screen), which is much smaller in comparison to the OLED2. This project implements an Etch a Sketch onto the Basys3 board as shown [here](capstone.MOV)
+The second project is OLEDRGB, which works with the [Digilent Pmod OLEDrgb screen](https://digilent.com/reference/pmod/pmodoledrgb/start), which is much smaller in comparison to the OLED2. This project implements an Etch a Sketch onto the Basys3 board as shown [here](capstone.MOV)
 
 [](capstone.MOV)
 
